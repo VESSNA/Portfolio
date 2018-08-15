@@ -1,0 +1,38 @@
+/* use this to put borders around things.... */
+
+.thin_border {
+  border: 1px solid black;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #C4DFE6;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #003B46;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #C4DFE6;
+    border-bottom: #C4DFE6 solid 3px;
+}
+
+/* put everything in the middle */
+.middle {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+}
