@@ -1,2 +1,2 @@
 # Portfolio
-My first portfolio
+My **first** portfolio - work in progress.
