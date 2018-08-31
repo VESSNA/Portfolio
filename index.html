@@ -1,46 +1,77 @@
 <html>
   <head>
     <title>
-      First page
+      Anastasiya Timofeeva
     </title>
+    <style>
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+  </style>
+
+<style>
+  a.button9 {
+    position: relative;
+    display: inline-block;
+    color: #07575B;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 0em 0em;
+    outline: none;
+    border-radius: 3px / 10%;
+    background-image:
+     linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+     linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+     linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 5px 10px -10px;
+  }
+  a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    color: #003B46;
+  }
+  a.button9:active {
+    top: 1px;
+  }
+</style>
 
     <link rel = "stylesheet"
           type = "text/css"
           href = "bootstrap.css">
     <link rel = "stylesheet"
           type = "text/css"
-          href = "st.css">
+          href = "styles.css">
   </head>
-
-
-  <body class="middle" background = "fon.jpg">
+  <body class="middle" background = "abstract.jpg">
     <div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="aboutme.html">About</a>
-  <a href="contact.html">Contact</a>
-</div>
-    <div class="container">
-
-      <h1>This is the heading1</h1>
-      <div class="row">
-        <div class="col-md-6 thin_border">
-          Some content here
-        </div>
-        <div class="col-md-6 thin_border">
-          Some content there
-        </div>
-      </div>
-
+      <a class="active" href="index.html">Home</a>
+      &nbsp;
+      <a href="aboutme.html">About</a>
+      &nbsp;
+      <a href="contact.html">Contact</a>
     </div>
-    <h2>
-    second heading
-    </h2>
-    <p>
-      <span class="indent">The</span> first paragraph the first paragraph the first paragraph the first paragraph the first paragraph the first paragraph
-    </p>
-    <p>
-      second paragraph
-    </p>
+    <div class="container">
+      <h1 align="center" class="magic">Bringing the magic of <strong>beauty</strong>
+         <br> and <strong>imagination</strong> into the Web...</h1>
+         <p class="top_margin text_style">
+<img alt="Anastasiya's picture" border="10" src="me1.jpg" width="300"
+ height="300" class="leftimg small_image" /><br><br><br>
+Anastasiya is a web designer and developer based in
+ Seattle, WA. She is a professional who can build high quality custom-based websites
+ that are responsive on any type of device. Anastasiya is also a concert pianist.
+ To find out more click <a href="aboutme.html" class="button9">here</a>.</p>
+
+</div>
+
 
     </div>
   </body>
